@@ -43,11 +43,11 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link href="/zaloga">
-              <button className="bg-white text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-2xl flex items-center gap-3">
-                <Package className="w-6 h-6" />
-                Preglej zalogo
-              </button>
-            </Link>
+  <button className="bg-white text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-2xl flex items-center gap-3">
+    <Package className="w-6 h-6" />
+    Preglej zalogo
+  </button>
+</Link>
             <Link href="/finance">
               <button className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-2xl flex items-center gap-3">
                 <Euro className="w-6 h-6" />
